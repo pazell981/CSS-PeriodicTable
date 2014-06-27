@@ -6,10 +6,12 @@
 h1{
 	width: 1250px;
 	height: 50px;
-	margin: 5px;
+	margin: 5px auto;
 	text-align: center;
 }
 #wrapper{
+	position: relative;
+	margin: 0px auto;
 	width: 1250px;
 }
 .cellheader {
@@ -20,7 +22,7 @@ h1{
 	padding: 30px 0px;
 }
 .cellheader p {
-	height: 100px;
+	height: 75px;
 	color: #FC0584;
 	font-size: 10pt;
 	font-weight: bold;
